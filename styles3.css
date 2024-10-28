@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.main {
+    background-color: white;
+}
+
+.title h1 {
+    color: black;
+    font-size: 2.5rem;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.input_container {
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+    margin: 18px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+
+.input_group1 {
+    padding: 10px;
+}
+
+.input_group2 {
+    padding: 10px;
+}
+
+
+.button {
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.button input{
+    text-align: center; 
+    align-items: center;
+    height: 25px;
+    width: 125px;
+    font-size: small;
+    color: black;
+}
