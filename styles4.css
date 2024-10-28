@@ -21,23 +21,26 @@
 .input_container {
     text-align: center;
     align-items: center;
+    justify-items: center;
     justify-self: center;
     margin: 18px;
     box-sizing: border-box;
     padding-bottom: 20px;
 }
 
-.button {
-    align-items: center;
-    text-align: center;
-    padding: 10px;
+#inputLbl {
+    size: 1rem;
+    font-size: medium;
+    color: black; 
 }
 
-.button input{
-    text-align: center; 
-    align-items: center;
+
+#inputBtn {
     height: 25px;
-    width: 125px;
-    font-size: small;
+    width: 100px;
+    font-size: medium;
     color: black;
+    position: absolute;
+    top: 25%;
+    right: 45%;
 }

@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Font Control | Practice 2</title>
+    <title>PHP Multiplication Table | Practice 4</title>
     <link rel="stylesheet" href="styles4.css">
     <script src="https://kit.fontawesome.com/4ecf1b89f1.js" crossorigin="anonymous"></script>
 
@@ -14,16 +14,14 @@
 
 <div class="main">
     <div class="title">
-        <h1>EECS PHP Multiplication Table (Practice 4)</h1>
+        <h1>PHP Multiplication Table (Practice 4)</h1>
     </div>
 
     <div class="input_container">
-        <label>Enter Multiplication Table Size:</label>
-        <input type="text" id="sizeInput">
-    </div>
-
-    <div class="button">
-        <input type="button" id="inputBtn" value="Click to Display" onclick="">
+        <form action="mult_table.php" method="GET">
+            Enter Table Size: <input type="text" name="size" id="inputLbl">
+            <input type="submit" id="inputBtn">
+        </form>
     </div>
 </div>
 
